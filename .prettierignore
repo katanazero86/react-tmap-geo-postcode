@@ -1,0 +1,20 @@
+# Ignore artifacts:
+node_modules
+dist
+build
+coverage
+**/build
+**/dist
+**/coverage
+**/node_modules
+
+*.css
+*.scss
+*.html
+*.json
+
+**/.git
+**/.gitignore
+.gitignore
+
+**/.idea
