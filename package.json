@@ -5,7 +5,8 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc && vite build",
+    "clean": "rimraf rm -rf dist",
+    "build": "npm run clean && tsc && rimraf cp package.json README.md ./dist",
     "preview": "vite preview"
   },
   "dependencies": {
@@ -27,6 +28,7 @@
     "eslint-plugin-prettier": "^4.2.1",
     "eslint-plugin-react": "^7.31.11",
     "prettier": "^2.8.1",
+    "rimraf": "^3.0.2",
     "typescript": "^4.9.3",
     "vite": "^4.0.0"
   }
