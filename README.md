@@ -108,3 +108,12 @@ type RowsType = {
 - zipcode: 우편번호입니다.
 
 참조: [우편번호 검색-Docs](https://tmapapi.sktelecom.com/main.html#webservice/docs/postCode)
+
+---
+
+
+![screenshot1](./screenshot/img1.png)  
+![screenshot2](./screenshot/img2.png)  
+![screenshot3](./screenshot/img3.png)
+
+- 현재는 에러 관련해서는 console 창에 출력만 해주고 있습니다.
